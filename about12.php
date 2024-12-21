@@ -595,7 +595,7 @@ $freeSpace = disk_free_space($uploadDirectory);
                                     </tr>
                                     <tr>
                                         <td>Upgrade FPP:</td>
-                                        <td><input type='button' value='shell access' onClick='shell_exec("apt update && apt upgrade -y'
+                                        <td><input type='button' value='shell access' onClick='shell_exec("apt update && apt upgrade -y")'
                                                 class='buttons btn-outline-success' id='ManualUpdate'></td>
                                     </tr>
                                     <?
